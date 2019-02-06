@@ -1,6 +1,6 @@
-Feature: Login into Application
+Feature: Login and verify Trending option into Application
 
-Scenario: Positive test validating login
+Scenario: Positive test validating login and verify Trending
 Given Intialize the browser with chrome and navigate to "https://www.youtube.com/" site 
 And Click on signin button to navigate to secure login page
 When User enter "shubhamcert@gmail.com" and "Skv@2580" and click on login
